@@ -1,0 +1,36 @@
+.search{
+    width: 450px;
+    height: 80px;
+    background: #FFF;
+    box-shadow: 0 3px 10px rgb(0,0,0,.2);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 30px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    height: 45px;
+    width: 400px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    color: #000;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 0 15px;
+}
+
+.search button{
+    height: 45px;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    background: var(--primary-color);
+    color: #FFF;
+    border-radius: 4px;
+}

@@ -18,6 +18,10 @@ function Cadastrar() {
   };
 
   function handleSubmit() {
+    if(content.length < 2 || title.length < 2 || company.length <2 )
+    {
+      alert('Cadastro', 'Preencha os campos!')
+    }
     axios
       .post("http://localhost:3004/posts", {
         id: new Date().getTime().toString(),

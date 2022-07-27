@@ -18,7 +18,7 @@ function Vagas() {
           justifyContent: 'center',
           alignItems: 'center'
         }}>
-        <Search />
+       {/*  <Search /> */}
         </div>
         <Vaga />
         <Footer />

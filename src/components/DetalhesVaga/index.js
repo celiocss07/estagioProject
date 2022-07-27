@@ -35,10 +35,7 @@ function DetalhesVaga({info}) {
                         <p>Estagio</p>
                        </div>
 
-                       <div>
-                        <MdOutlineEmail color="#000"/>
-                        <p>sonangol@estagio.com</p>
-                       </div>
+                       
                     </div>
 
                     

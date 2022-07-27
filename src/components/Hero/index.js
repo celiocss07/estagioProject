@@ -7,8 +7,8 @@ function Hero(){
             <div className='content'>
                 <p></p>
                 <p></p>
-                <p>Vagas de emprego</p>
-                <p>O portal que te mantém atualizado <br/> sobre Oportunidades de Emprego <br/> em  Angola</p>
+                <p>Vagas de estágio</p>
+                <p>O portal que te mantém atualizado <br/> sobre Oportunidades de estágio para estudante finalista do ensino médio <br/> em  Angola</p>
                 <a href='#vagas' className='button'>Ver vagas</a>
             </div>
         </div>

@@ -24,8 +24,8 @@ function Navbar(){
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
-                    <img src="" alt='logo' />
+                <a href='/' className='logo' >
+                    <span style={{color: 'white', fontStyle:'italic', fontWeight:'bold'}}>estagios.com</span>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)

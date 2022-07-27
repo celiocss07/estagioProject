@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import vagaImg from '../../assets/images/kkk.png'
 import { MdOutlineLocationOn, MdOutlineEmail } from 'react-icons/md';
@@ -6,14 +6,24 @@ import { BsBag } from 'react-icons/bs';
 
 import './style.css';
 
-function DetalhesVaga() {
+function DetalhesVaga({info}) {
+    
+   
+
+    function createMarkup() {
+        return {__html: info?.content};
+      }
+
+      useEffect(()=>{
+        console.log(info?.title)
+      },[])
   return (
         <div className='info'>
             <div className='container'>
                 <div className='col-1'>
-                    <p></p>
-                    <p>O Estagio agora esta mais perto de você</p>
-                    <p>Every single one of our financial advisors receives rigorous training according to John Doe’s philosophy based on academic research (including that of a Nobel laureate in Economics) and Behavioral Finance.</p>
+                    
+                    <p>Vaga para {info?.title} na {info?.company}  </p>
+                    <div dangerouslySetInnerHTML={createMarkup()}></div>
                     <div className="icon">
                        <div>
                         <MdOutlineLocationOn color="#000"/>

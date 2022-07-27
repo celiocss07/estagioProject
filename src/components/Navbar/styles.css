@@ -9,13 +9,16 @@
     overflow: hidden;
     background-color: rgba(0,0,0,.9);
 }
+.logo{
+    cursor: pointer;
+}
 
 .header .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1240px;
-    margin: auto;
+    
     height: 100%;
     padding: 0 1rem;
 }

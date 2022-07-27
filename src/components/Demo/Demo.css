@@ -3,7 +3,9 @@
     padding: 1rem;
     width: 100%;
 }
-
+.button{
+    cursor: pointer;
+}
 .demo .container {
     width: 1240px;
     margin: auto;

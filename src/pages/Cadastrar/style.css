@@ -1,0 +1,36 @@
+.middle{
+    margin: 128px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    width: 100%;
+}
+.title{
+    padding: 8px;
+    width: 200px;
+}
+.button{
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px;
+    height: 30px;
+}
+
+.boxTitle {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

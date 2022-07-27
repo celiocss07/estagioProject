@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": "1658872375733",
+      "title": "Contablista",
+      "company": "Easyy",
+      "content": "<p>A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real</p>",
+      "created_at": "26/07/2022"
+    },
+    {
+      "id": "1658880063350",
+      "title": "Mobile Developer",
+      "company": "EASYy  payments",
+      "content": "<p><strong>Descrição:</strong></p><p>A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real.</p><p><br></p><p>Hablidades:</p><ol><li>HTML/CSS/JS;</li><li>React;</li><li>Jquery;</li><li>Mysql</li></ol>",
+      "created_at": "27/07/2022"
+    },
+    {
+      "id": "1658882555553",
+      "title": "UI/UX",
+      "company": "EasYy",
+      "content": "<p><strong>Descrição da vaga:</strong></p><p style=\"margin-left: 20px;\">Alguém responsável para para dar vida a layout's que estão em papeis ou nas nossas cabeças.</p><p style=\"margin-left: 10px;\"><br></p><p><strong>Requisitos:</strong></p><p style=\"margin-left: 20px;\">Experência comprovada em:</p><p style=\"margin-left: 20px;\"><br></p><ul><li style=\"margin-left: 30px;\">HTML/CSS/JS</li><li style=\"margin-left: 30px;\">Javascript;</li><li style=\"margin-left: 30px;\">Jquery;</li><li style=\"margin-left: 30px;\"><u>React;</u></li><li style=\"margin-left: 30px;\">PHP;</li><li style=\"margin-left: 30px;\">Styled components;</li><li style=\"margin-left: 30px;\">Axios;</li><li style=\"margin-left: 30px;\"><br></li></ul><p><strong>Contactos:</strong>&nbsp;</p><p style=\"margin-left: 20px;\">Tel:990043045</p><p style=\"margin-left: 20px;\">E-mail: rh@easyy.ao</p>",
+      "created_at": "27/07/2022"
+    },
+    {
+      "id": "1658889428171",
+      "title": "Monitor de matemática",
+      "company": "IMIL",
+      "content": "<p>Descrição da vaga:</p><p style=\"margin-left: 20px;\">Estudante de curso técnico que esteja no seu último ano.</p><p style=\"margin-left: 20px;\"><br></p><p style=\"margin-left: 20px;\"><br></p><p>Requisitos obrigatórios:</p><p style=\"margin-left: 20px;\">13 classe ou superior;</p><p style=\"margin-left: 20px;\">Conclui seu estudos no IMIL;</p><p style=\"margin-left: 20px;\">Média 15 ou superior;</p><p style=\"margin-left: 20px;\"><br></p><p>Contactos:</p><p><br></p><p>E-mail: info@imil.ao</p><p>Tel: 990 076 087</p>",
+      "created_at": "27/07/2022"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

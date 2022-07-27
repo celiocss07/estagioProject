@@ -17,11 +17,15 @@
 .vaga .container .content {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    align-items: stretch;
     grid-gap: 20px;
     margin: 4rem 0;
 }
 
 .vaga .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid #eee;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgb(0,0,0,.2);

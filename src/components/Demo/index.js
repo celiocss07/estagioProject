@@ -19,7 +19,7 @@ function Demo(){
                 <div className='col-1'>
                     <p></p>
                     <p>O Estagio agora esta mais perto de você</p>
-                    <p>Every single one of our financial advisors receives rigorous training according to John Doe’s philosophy based on academic research (including that of a Nobel laureate in Economics) and Behavioral Finance.</p>
+                    <p>O mercado de trabalho atual procura cada vez mais por profissionais que estejam preparados para o desempenho de atividades. Assim, as empresas fazem uso de processos mais seletivos no recrutamento de novos empregados. É nesse contexto que as instituições de ensino fazem uso de programas e editais que possibilitam a inserção dos estudantes no âmbito do mercado de trabalho por meio do estágio </p>
                     <button className='button' onClick={acessVaga}>Ver todas vagas do estagio </button>
                 </div>
                 <div className='col-2'>

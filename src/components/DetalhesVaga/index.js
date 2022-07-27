@@ -39,7 +39,7 @@ function DetalhesVaga({info}) {
                     </div>
 
                     
-                    <button className='button'>Engenheiro Industrial </button>
+                    <button className='button'>{info?.title} </button>
                 </div>
                 <div className='col-2'>
                     <img className='img' src={vagaImg} alt="" />
